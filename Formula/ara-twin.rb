@@ -1,25 +1,25 @@
 class AraTwin < Formula
   desc "Reference peer binary for ara-protocol — embeds the kernel, joins the mesh, signs acts, anchors evidence."
   homepage "https://arqera.io"
-  version "0.3.7"
+  version "0.3.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/ara-twin-aarch64-apple-darwin.tar.xz"
-      sha256 "22b17150a7809e82cb71efd03b486571a05f1b34b84a65a0969a3bc3c3ad8c10"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/ara-twin-aarch64-apple-darwin.tar.xz"
+      sha256 "16f51c1ee9a3cfba52f21c7108c0fcb3a77be781f1ea17a4da14c4b31806a4dc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/ara-twin-x86_64-apple-darwin.tar.xz"
-      sha256 "c036b6ccea3955b1970b0f1dc26398e72044be975879323072b5aec9c018adfa"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/ara-twin-x86_64-apple-darwin.tar.xz"
+      sha256 "688215fde6135e582f285dd4f4ad10a0bf57ed5d178045b88a39587c55203c87"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/ara-twin-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "896c6d2e04b263f0b78f97282eab57e4e70dfc70229f822ebd315e666c41025a"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/ara-twin-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d22a3295e2a3b0420b55360ba61993ec7c8517e8e556ea31a4c333ac892aa03a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/ara-twin-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dc92002013c189ae785fe50652137de988275187f6abc1fa3ff603ab2977d93a"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/ara-twin-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "db8908234dbfb794431bbdb3fe050ad3bc90e4bddeb2262fd5dbe7f32fc85093"
     end
   end
   license "BUSL-1.1"
