@@ -1,24 +1,24 @@
 class TwinFsWatcher < Formula
   desc "Layer-3 filesystem watcher — substrate-citizen for terminal-as-substrate-citizen. Emits typed acts for code, identity, credentials, substrate, deployment, knowledge, commerce, and configuration domains across arqera."
-  version "0.3.5"
+  version "0.3.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.5/twin-fs-watcher-aarch64-apple-darwin.tar.xz"
-      sha256 "e0d7663caeb086e792e0811e1d2b939e5469ad1a838d95f21a5525a5c46dcf5a"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.6/twin-fs-watcher-aarch64-apple-darwin.tar.xz"
+      sha256 "bd0b62820217124d1706393c63a477258c17a75ea90beb2b84d98aa28cd8ebeb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.5/twin-fs-watcher-x86_64-apple-darwin.tar.xz"
-      sha256 "bccbb18e9486728012c0e0c9e6ed7bd6b921bd12ddfe4dd7e03f1380efcb3093"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.6/twin-fs-watcher-x86_64-apple-darwin.tar.xz"
+      sha256 "0523463d0ac77487d0b8e81dad2d236e29072f1607bf2653cd94849557bf6551"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.5/twin-fs-watcher-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3588d59bf84b8a1ac974b8db12fd5998098238eb015e728e22c52dd91d04a7a7"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.6/twin-fs-watcher-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ded92735cfe66cacceb2e06a13b55c763f8fccf244e031b53efd8f093d08c65e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.5/twin-fs-watcher-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "aa5efe0a9814ce8c5dce5a27b2f1f48dd037e0775d357f7c319718b843776d65"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.6/twin-fs-watcher-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "0b94472a31bbff3e1ad46e92c987fc61e3c93eeb76d91c25104e585d476861d8"
     end
   end
 
