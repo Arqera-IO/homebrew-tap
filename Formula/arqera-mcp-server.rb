@@ -1,25 +1,25 @@
 class ArqeraMcpServer < Formula
   desc "ARQERA MCP server — the distribution channel. Exposes twin + capability + signed-envelope primitives as Model-Context-Protocol tools so every agent talks to the substrate through the open gate, not backdoors."
   homepage "https://github.com/Arqera-IO/ara-protocol"
-  version "0.3.7"
+  version "0.3.8"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/arqera-mcp-server-aarch64-apple-darwin.tar.xz"
-      sha256 "6b40d9f4be647d1d71e99ef3d6965349850a07d780e448ce9c35849545c9a109"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/arqera-mcp-server-aarch64-apple-darwin.tar.xz"
+      sha256 "533fca23618e8d14fad65e931d4babdda231d09229284842aaa544c1534636e1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/arqera-mcp-server-x86_64-apple-darwin.tar.xz"
-      sha256 "75592cbb275c211c78630bcaabd5272cc978d41129226553f37f259d41502c6f"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/arqera-mcp-server-x86_64-apple-darwin.tar.xz"
+      sha256 "9b52901ec4a5dc03a8de39d546c0597893f284dc4293456d2fd19506ca05ce01"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/arqera-mcp-server-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "09478994d04e963b35517de163a9ba710e6bcabd2d9b4e6442ffef34091ff333"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/arqera-mcp-server-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "af39d27244fa27749258cf5545f90931eaadb9e4cb587c788a7afc054c651666"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.7/arqera-mcp-server-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "968300f3996ecee276b85840c32392e1e393f57832fec8f6b8307c2166134dcd"
+      url "https://github.com/Arqera-IO/ara-protocol/releases/download/v0.3.8/arqera-mcp-server-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "15b6ee398ec30543d783bb83bee5b0747c360e6b0a1eeb99561e468e0b61c3db"
     end
   end
   license "BUSL-1.1"
